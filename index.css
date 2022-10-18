@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #EDEDED;
+}
+@font-face {
+    font-family: Insta-font;
+    src: url("Billabong.ttf");
+}
+header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 0.5px rgb(198, 197, 197) solid;
+
+}
+ nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+ }
+
+nav img{
+    margin:0 15px;
+    margin-top: 5px;
+}
+ 
+main{
+    margin: 100px auto;
+}
+
+section{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+    width: 500px;
+    margin:   auto;
+    padding: 5px 0;
+    background-color: rgb(247, 243, 243);
+}
+
+
+
+.avatar{
+    width: 60px;
+    border-radius: 50px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: start;
+    margin: 10px 20px;
+}
+
+.name-location{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-img{
+    width: 100%;
+    margin: 0;
+}
+
+.post-info{
+    margin: 10px 15px;
+}
+
+.icon{
+    width: 30px;
+    margin: 0 9px;
+    height: 30px;
+}
+
+.icon-container{
+    display: flex;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.icon:hover{
+    opacity: 0.5;
+}
+
+/* Typography */
+
+.bold-txt{
+    font-weight: 700;
+}
+
+p{
+    margin: 0;
+}
+
+.post-info p{
+    margin: 10px 0;
+}
+
+h1{
+    font-family: Insta-font;
+    margin:15px;
+    font-size: 45px;
+}
+
