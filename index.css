@@ -27,6 +27,7 @@ header{
 nav img{
     margin:0 15px;
     margin-top: 5px;
+    height: 90%;
 }
  
 main{
@@ -40,13 +41,14 @@ section{
     margin:   auto;
     padding: 5px 0;
     background-color: rgb(247, 243, 243);
+    margin: 15px auto;
 }
 
 
 
 .avatar{
     width: 60px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .post-header{
